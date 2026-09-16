@@ -1,0 +1,10 @@
+{
+  "description": "Offers a clean, modern landing page for a driving school providing motorbike and car license training with easy registration and student support.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
