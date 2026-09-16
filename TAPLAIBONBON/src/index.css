@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #273B78;
+  --color-secondary: #57A2CD;
+  --color-light-bg: #EAF3F9;
+}
+
+* {
+  font-family: 'Be Vietnam Pro', ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #57A2CD;
+  border-radius: 3px;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #273B78 0%, #1a2d5e 60%, #0f1c3d 100%);
+}
+
+.btn-primary {
+  background: #57A2CD;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}
+.btn-primary:hover {
+  background: #3d8ab8;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 25px rgba(87,162,205,0.4);
+}
+
+.btn-outline {
+  border: 2px solid #57A2CD;
+  color: #57A2CD;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}
+.btn-outline:hover {
+  background: #57A2CD;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(39,59,120,0.12);
+}
+
+.nav-link {
+  color: #1F2937;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.15s;
+  white-space: nowrap;
+}
+.nav-link:hover {
+  color: #57A2CD;
+}
+
+.step-line::after {
+  content: '';
+  position: absolute;
+  top: 28px;
+  left: calc(50% + 28px);
+  width: calc(100% - 56px);
+  height: 2px;
+  background: linear-gradient(90deg, #57A2CD, #273B78);
+}
+
+.accordion-item {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.star {
+  color: #f59e0b;
+}
