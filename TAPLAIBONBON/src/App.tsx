@@ -250,7 +250,7 @@ function Header() {
           {/* Logo */}
           <a href="#" className="flex-shrink-0 flex flex-col items-center" style={{ justifyContent: "center", height: 60, width: 160, gap: "3px 2px" }}>
             <img
-            src={bonbonIcon}
+            src="/src/imports/bonbon-icon.png
             alt="TẬPLÁIBONBON logo"
             className="object-contain"
             style={{ width: 70, height: 35, marginTop: 3, marginRight: 46, marginBottom: 3, marginLeft: 3 }}
